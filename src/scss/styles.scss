@@ -16,3 +16,7 @@ $known-prefixes: webkit, moz, ms, o;
     // Oops, we typo'd "webkit" as "wekbit"!
     @include prefix(transform, rotate(15deg), wekbit ms);
 }
+
+h1 {
+    font-weight: 500;
+}
